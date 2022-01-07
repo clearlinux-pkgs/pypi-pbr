@@ -25,7 +25,7 @@ BuildRequires : pypi(pytest)
 BuildRequires : pytest
 BuildRequires : testresources
 BuildRequires : testscenarios
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 ============
