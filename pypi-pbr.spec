@@ -4,7 +4,7 @@
 #
 Name     : pypi-pbr
 Version  : 5.8.0
-Release  : 118
+Release  : 119
 URL      : https://files.pythonhosted.org/packages/f5/0c/3fa7b1f9006e4d454a49b48eac995167cf8617e19375c6963a6b048af0d0/pbr-5.8.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f5/0c/3fa7b1f9006e4d454a49b48eac995167cf8617e19375c6963a6b048af0d0/pbr-5.8.0.tar.gz
 Summary  : Python Build Reasonableness
@@ -14,18 +14,8 @@ Requires: pypi-pbr-bin = %{version}-%{release}
 Requires: pypi-pbr-license = %{version}-%{release}
 Requires: pypi-pbr-python = %{version}-%{release}
 Requires: pypi-pbr-python3 = %{version}-%{release}
-BuildRequires : Sphinx
 BuildRequires : buildreq-distutils3
-Provides: pbr
-Provides: pbr-python
-Provides: pbr-python3
-BuildRequires : pypi(build)
-BuildRequires : pypi(mock)
-BuildRequires : pypi(pytest)
-BuildRequires : pytest
-BuildRequires : testresources
-BuildRequires : testscenarios
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pytest
 
 %description
 ============
@@ -75,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641467196
+export SOURCE_DATE_EPOCH=1641857676
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
