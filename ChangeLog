@@ -1,6 +1,15 @@
 CHANGES
 =======
 
+5.8.1
+-----
+
+* Add release note about missing pbr.json fix
+* Avoid recursive calls into SetupTools entrypoint
+* remove explicit mock
+* Don't test with setuptools local distutils
+* Use context blocks for open() calls in packaging
+
 5.8.0
 -----
 
