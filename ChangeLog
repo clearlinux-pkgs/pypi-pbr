@@ -1,11 +1,20 @@
 CHANGES
 =======
 
+5.9.0
+-----
+
+* Future-proofing pyproject.toml
+* Use importlib-metadata for runtime package version lookups
+* Drop wheel from pyproject.toml examples
+* Changed minversion in tox to 3.18.0
+
 5.8.1
 -----
 
 * Add release note about missing pbr.json fix
 * Avoid recursive calls into SetupTools entrypoint
+* setup.cfg: Replace dashes with underscores
 * remove explicit mock
 * Don't test with setuptools local distutils
 * Use context blocks for open() calls in packaging
@@ -24,6 +33,7 @@ CHANGES
 * PBR package testing improvements
 * Run python3.9 test jobs
 * Retire django-openstack-auth
+* Upgrade the pre-commit-hooks version
 * Correct comment for 'D1\_D2\_SETUP\_ARGS'
 
 5.6.0
