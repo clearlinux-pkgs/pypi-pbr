@@ -4,7 +4,7 @@
 #
 Name     : pypi-pbr
 Version  : 5.9.0
-Release  : 124
+Release  : 125
 URL      : https://files.pythonhosted.org/packages/96/9f/f4bc832eeb4ae723b86372277da56a5643b0ad472a95314e8f516a571bb0/pbr-5.9.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/96/9f/f4bc832eeb4ae723b86372277da56a5643b0ad472a95314e8f516a571bb0/pbr-5.9.0.tar.gz
 Summary  : Python Build Reasonableness
