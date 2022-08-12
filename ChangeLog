@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+5.10.0
+------
+
+* Specify Changelog procedure
+* Allow leading spaces when determining symbols
+* Adding python classifiers py38 & py39
+
 5.9.0
 -----
 
