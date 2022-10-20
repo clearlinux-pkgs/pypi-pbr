@@ -1,11 +1,18 @@
 CHANGES
 =======
 
+5.11.0
+------
+
+* Fix symbol identification in multiline message
+* Replace deprecated readfp method with read\_file
+
 5.10.0
 ------
 
 * Specify Changelog procedure
 * Allow leading spaces when determining symbols
+* Use stdlib importlib.metadata where possible
 * Adding python classifiers py38 & py39
 
 5.9.0
