@@ -4,7 +4,7 @@
 #
 Name     : pypi-pbr
 Version  : 5.11.0
-Release  : 130
+Release  : 131
 URL      : https://files.pythonhosted.org/packages/52/fb/630d52aaca8fc7634a0711b6ae12a0e828b6f9264bd8051225025c3ed075/pbr-5.11.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/52/fb/630d52aaca8fc7634a0711b6ae12a0e828b6f9264bd8051225025c3ed075/pbr-5.11.0.tar.gz
 Summary  : Python Build Reasonableness
