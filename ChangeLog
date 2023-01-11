@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+5.11.1
+------
+
+* Run PBR integration on Ubuntu Focal too
+* Remove numpy dependencies
+* Tie recursion calls to Dist object, not module
+* Update tox.ini to work with tox 4
+
 5.11.0
 ------
 
