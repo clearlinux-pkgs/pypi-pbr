@@ -4,3 +4,4 @@ babel.dates-python
 wheel.install-python
 build-python
 testscenarios
+pypi(testscenarios)
