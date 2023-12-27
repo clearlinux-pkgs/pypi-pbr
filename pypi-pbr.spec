@@ -7,7 +7,7 @@
 #
 Name     : pypi-pbr
 Version  : 6.0.0
-Release  : 137
+Release  : 138
 URL      : https://files.pythonhosted.org/packages/8d/c2/ee43b3b11bf2b40e56536183fc9f22afbb04e882720332b6276ee2454c24/pbr-6.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8d/c2/ee43b3b11bf2b40e56536183fc9f22afbb04e882720332b6276ee2454c24/pbr-6.0.0.tar.gz
 Summary  : Python Build Reasonableness
