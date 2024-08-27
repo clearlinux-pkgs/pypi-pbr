@@ -1,6 +1,21 @@
 CHANGES
 =======
 
+6.1.0
+-----
+
+* Add openstack-tox-py312 as non-voting job
+* Add SetupTools to our functional testing venvs
+* Use SetupTools' vendored distutils in tests
+* Also run coverage tests serially
+* zuul: Drop retired repos from required-projects
+* Drop Focal integration testing
+* Omnibus PBR CI fixups
+* Serialize tests
+* Fix tempest-full job
+* Use summary for the package summary
+* Test on py310 and py311
+
 6.0.0
 -----
 
