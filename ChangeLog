@@ -1,6 +1,24 @@
 CHANGES
 =======
 
+6.1.1
+-----
+
+* docs: Drop SetupTools from pyproject.toml example
+* Simplify PBR dependency on SetupTools
+* Update setup.cfg example in Usage document
+* Clarify PEP 517 implementation for users
+
+6.1.1.0b1
+---------
+
+* Set up PBR with setuptools as a dependency
+* Use pyproject.toml
+* Test pip and setup.py install behavior in PBR testing
+* Remove the use of six from PBR
+* Fix integration testing of current change
+* Update PBR testing for Noble
+
 6.1.0
 -----
 
